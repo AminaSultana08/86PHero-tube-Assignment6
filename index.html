@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PH Tube </title>
+    <!-- daisy khalar and tailwind link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font family -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+    .Inter{
+        font-family: 'Inter', sans-serif;;
+    }
+</style>
+
+</head>
+<body class="Inter">
+   <section class="mt-8  max-w-6xl mx-auto ">
+    <nav class=" w-full mb-10   ">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+               <img src="Logo.png" alt=""> 
+            </div>
+            <div class="navbar-center  lg:flex">
+                <button onclick="sortByView()"    class="btn btn-primary">Sort By View</button>
+            </div>
+            <div class="navbar-end">
+              <a href="blog.html" class="btn hover:bg-[#FF1F3D] hover:text-white  ">Blog</a>
+            </div>
+          </div>
+
+    </nav>
+    <div class="border-2 border-gray-300 w-auto"> </div>
+   </section>
+    <main>
+       
+            <div class="tab-container mt-6  max-w-6xl mx-auto ">
+                <div id="tab-container"  class="   p-5   flex    gap-4 justify-center ">
+                    <!-- <a class="btn btn-active">Tab 1</a> 
+                    <a class="btn ">Tab 2</a> 
+                    <a class="btn">Tab 3</a>
+                    <a class="btn">Tab 4</a> -->
+                  </div>
+            </div>
+            <div id="card-container" class="  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 mt-6  max-w-6xl mx-auto relative  pl-20 md:pl-0 lg:pl-0 "  >
+
+
+            </div>
+            <section class="mt-16 hidden" id="drawing-section">
+              <div class=" flex justify-center items-center flex-col gap-5"> 
+                <img src="./images/Icon.png" alt="">
+                <h1 class="text-3xl text-center font-semibold">Oops!! Sorry, There is no ,<br> content here</h1>
+
+              </div>
+             </section>
+                
+                <!-- <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img
+                        src="https://i.ibb.co/M23fhxm/unsplash-Eh-Tc-C9s-YXsw.png"
+                        alt="Shoes"
+                      /></figure>
+                    <div class="card-body flex ">
+                        <div class="flex flex-row">
+                            <div>
+                                <div>
+                                    <div class="avatar ">
+                                      <div class="w-14 rounded-full">
+                                        <img
+                                          src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                          <h2 class="card-title">
+                            Biden Pledges Nearly $3 Billion To Ukraine
+                            
+                          </h2>
+
+                        </div>
+                        <div >
+                           <div class="flex flex-row  ">
+                                <h6>Jimmy Dane</h6>
+                                <img class="w-6 h-6 bg-blue-700"  src="blue-valid.jpg"   alt="">
+                               
+                            </div>
+                            <p>90k views</p>
+                        </div>  
+                     </div>
+                  </div> -->
+
+                   
+           
+       
+
+    </main>
+    <script src="./js/ph.js"></script>
+    <script src="./js/sort.js"></script>
+</body>
+</html>
